@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberBotWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1fda2316b3f56c882c96750d4bca9130f670b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberBotWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberBotWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
