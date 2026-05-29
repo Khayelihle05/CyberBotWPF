@@ -16,7 +16,8 @@ namespace CyberBotWPF
                 {
                     "Use strong passwords with symbols and numbers.",
                     "Never reuse passwords across accounts.",
-                    "Password managers help create secure passwords."
+                    "Password managers help create secure passwords.",
+                    "Use unique passwords for every online account."
                 }
             },
 
