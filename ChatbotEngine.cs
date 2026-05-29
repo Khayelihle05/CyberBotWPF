@@ -9,7 +9,7 @@ namespace CyberBotWPF
             UserMemory memory)
         {
             input = input.ToLower();
-
+            //Keyword Recognition System
             foreach (
                 KeyValuePair<string, List<string>> entry
                 in ResponseManager.Responses)
@@ -38,7 +38,7 @@ namespace CyberBotWPF
             {
                 return "Use two-factor authentication whenever possible.";
             }
-
+            //Sentiment Detection
             if (input.Contains("worried")
                 || input.Contains("anxious")
                 || input.Contains("scared"))
@@ -51,7 +51,7 @@ namespace CyberBotWPF
             {
                 return $"Sorry you're frustrated, {memory.Name}. I'm here to help.";
             }
-
+            //Memory Recall System
             if (input.Contains("favourite topic"))
             {
                 if (!string.IsNullOrEmpty(
